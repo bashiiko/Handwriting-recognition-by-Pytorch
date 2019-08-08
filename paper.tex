@@ -104,6 +104,15 @@
   \end{tabular}
 \end{table}
 
+\subsection{Optunaを用いたハイパーパラメータのチューニング}
+\begin{itemize}
+  \item 活性化関数：ReLU or ELU
+  \item 最適化手法：Adam or MomentumSGD
+  \item 学習率：$1.0\times 10^{-5}$～$1.0\times 10^{-1}$
+  \item weight decayの設定：$1.0\times 10^{-10}$～$1.0\times 10^{-3}$
+  \item Dropoutの選出確率(Conv2)：0～0.8
+\end{itemize}
+
 \section{ネットワークの意図}
 LeNetに近い構造を持つ，畳み込み層2層と全結合層2層から構成された，畳み込みニューラルネットワークを用いる．畳み込みニューラルネットワークは一般的な順伝播型のニューラルネットワークとは異なり，畳み込み層とプーリング層という二種類の階層を有していることが特徴であり，画像の特徴を際立たせ捉えることが可能である．最適化手法としてMomentumSDGを用い，過学習を防止するためweight decayを付加する．また，ニューラルネットワークの学習率を0.01とチューニングすることで，計算速度と収束のバランスが取れたネットワークを構築する．
 
