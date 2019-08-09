@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1565158274 "paper.dvi" "paper.pdf" "paper" 1565158276
-  "paper.dvi" 1565158273 6468 09dd8dd2fce7b163cd71a189c77dab8c "latex"
+["dvipdf"] 1565328309 "paper.dvi" "paper.pdf" "paper" 1565328311
+  "paper.dvi" 1565328309 7188 e978881030fd95c44fe212e9ae29d2fa "latex"
   (generated)
   "paper.pdf"
-["latex"] 1565158270 "paper.tex" "paper.dvi" "paper" 1565158276
+["latex"] 1565328308 "paper.tex" "paper.dvi" "paper" 1565328311
   "/etc/texmf/web2c/texmf.cnf" 1561859821 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1480098698 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -62,8 +62,8 @@
   "/usr/share/texmf/tex/latex/multirow.sty" 1561873505 5022 b6901f8118cedeb7fc98d54ebdf4f6e6 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/eptex/platex.fmt" 1561860003 1112238 5f479208840a5ee1581e97d733f75828 ""
-  "paper.aux" 1565158273 1341 2698f9c88ce910052130272dbd27e293 ""
-  "paper.tex" 1565158270 4980 46316dbd881bc0317e31e9afccba45c9 ""
+  "paper.aux" 1565328309 1450 b259dcb684b7082aa71f7171b4485128 ""
+  "paper.tex" 1565328306 5452 ed9f8cf4b1cef83781290dc4f721ba7c ""
   (generated)
   "paper.aux"
   "paper.dvi"
